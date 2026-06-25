@@ -22,7 +22,7 @@ class CodeRequest(BaseModel):
 
 @app.get("/")
 def root():
-    return {"message": "Code-to-Animation backend chal raha hai"}
+    return {"message": "Hello from Pushkar"}
 
 @app.post("/trace")
 def trace_code(request: CodeRequest):
