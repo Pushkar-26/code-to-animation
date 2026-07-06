@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-to-Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Code-to-Animation</h1>
+        <div class="left-panel">
+            <textarea id="codeInput" placeholder="Paste Your Code Here..."></textarea>
+            <div id="codeDisplay" style="display: none;"></div>
+            <div class="controls">
+                <select id="languageSelect">
+                    <option value="cpp">C++</option>
+                    <option value="python">Python</option>
+                </select>
+                <button id="traceBtn">Trace Code</button>
+                <button id="prevBtn" disabled>⏮ Previous</button>
+                <button id="nextBtn" disabled>Next ⏭</button>
+                <button id="playBtn" disabled>▶ Play</button>
+                <span id="stepCounter">Step 0 / 0</span>
+            </div>
+            <div id="errorDisplay" style="display: none;"></div>
+        </div>
+        <div class="right-panel">
+            <h3>Call Stack</h3>
+            <div id="callStackView"></div>
+            <h3 style="margin-top: 15px; color: #89b4fa;">Output</h3>
+            <div id="outputPanel" style="display: none; background: #11111b; padding: 10px; border-radius: 6px; font-family: monospace; color: #a6e3a1; font-size: 13px; white-space: pre;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
