@@ -2,8 +2,6 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-Framework-green)
 ![Gemini](https://img.shields.io/badge/Google-Gemini-orange)
 ![LLM](https://img.shields.io/badge/LLM-Powered-purple)
-![Render](https://img.shields.io/badge/Deployment-Render-blueviolet)
-![Status](https://img.shields.io/badge/Status-Active-success)
 # 🎬 Code-To-Animation
 
 > Transform Source Code into Interactive AI-Powered Visual Animations
